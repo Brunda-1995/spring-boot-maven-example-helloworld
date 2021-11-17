@@ -4,7 +4,10 @@
     <artifactId>SpringBootMavenExample</artifactId>
     <name>SpringBootMavenExample</name>
     <description>SpringBootMavenExample</description>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
+    <build>
+   <finalName>java-web-app</finalName>
+ </build>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -12,7 +15,7 @@
     </parent>
 
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
